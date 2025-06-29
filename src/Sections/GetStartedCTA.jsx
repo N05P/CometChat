@@ -5,7 +5,7 @@ const GetStartedCTA = () => {
     <section
       className="relative text-white py-32 px-6 overflow-hidden bg-[#0c051c]"
       style={{
-        backgroundImage: "url('/src/assets/getstarted.png')", // 👉 Replace with your image or leave bg color
+        backgroundImage: "url('https://ik.imagekit.io/priyanshu08/assets/bg.png?updatedAt=1751209456279')", // 👉 Replace with your image or leave bg color
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

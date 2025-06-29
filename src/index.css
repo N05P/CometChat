@@ -2,4 +2,9 @@
 
 *{
     font-family:"pp mori";
+
+}
+
+::-webkit-scrollbar{
+    display:none;
 }

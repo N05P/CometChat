@@ -13,7 +13,6 @@ const Body = () => {
     <div>
    
         <Hero/>
-        <MovingLogos/>
         <Partner/>
         <PartnershipPrograms/>
         <FaqSection/>

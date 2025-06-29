@@ -268,20 +268,32 @@ const Footer = () => {
       </div>
 
       {/* Bottom bar */}
-      <div className="border-t border-gray-800 mt-10 pt-6 px-24  flex flex-col md:flex-row items-center justify-between gap-4 text-xm text-white">
-        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 text-center sm:text-left">
-          <p>2023 © CometChat</p>
-          <a href="#">Terms of Use</a>
-          <a href="#">Privacy Policy</a>
-        </div>
-        <div className="flex flex-wrap justify-center gap-4">
-          <a href="#">Facebook</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Instagram</a>
-          <a href="#">Twitter</a>
-          <a href="#">GitHub</a>
-        </div>
-      </div>
+     <div className="border-t border-gray-800 mt-10 pt-6 px-4 md:px-24 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white">
+  <div className="flex flex-col md:flex-row gap-2 md:gap-6 text-center md:text-left">
+    <p>2023 © CometChat</p>
+    <a href="#" className="hover:text-purple-400">Terms of Use</a>
+    <a href="#" className="hover:text-purple-400">Privacy Policy</a>
+  </div>
+
+    <div className="flex flex-wrap justify-center md:justify-end gap-4">
+      <a href="#" className="flex items-center gap-1">
+        <i className="fa-brands fa-facebook-f"></i> Facebook
+      </a>
+      <a href="#" className="flex items-center gap-1">
+        <i className="fa-brands fa-linkedin-in"></i> LinkedIn
+      </a>
+      <a href="#" className="flex items-center gap-1">
+        <i className="fa-brands fa-instagram"></i> Instagram
+      </a>
+      <a href="#" className="flex items-center gap-1">
+        <i className="fa-brands fa-twitter"></i> Twitter
+      </a>
+      <a href="#" className="flex items-center gap-1">
+        <i className="fa-brands fa-github"></i> GitHub
+      </a>
+    </div>
+</div>
+
     </footer>
   );
 };

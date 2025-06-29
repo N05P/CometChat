@@ -21,7 +21,7 @@ const HeroWithLogos = () => {
       {/* HERO SECTION */}
       <div
         className="min-h-[80vh] w-full bg-cover bg-center bg-no-repeat flex flex-col"
-        style={{ backgroundImage: "url('/src/assets/bg.png')" }}
+        style={{ backgroundImage: "url('https://ik.imagekit.io/priyanshu08/assets/bg.png?updatedAt=1751209456279')" }}
       >
         <Header />
 

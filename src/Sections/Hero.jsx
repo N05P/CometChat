@@ -7,7 +7,7 @@ const Hero = () => {
 
     <div
       className="h-[80vh] flex flex-col gap-2 bg-cover bg-center bg-no-repeat overflow-x-hidden"
-      style={{ backgroundImage: "url('/src/assets/bg.png')" }}>
+      style={{ backgroundImage: "url('bg.png')" }}>
       <Header />
       <div className="h-full w-screen flex gap-2">
         <div className="w-1/2 h-full flex-col relative text-white flex justify-center font-bold">
